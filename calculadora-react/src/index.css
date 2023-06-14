@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+.titulo {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #0000FF;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+  font-size: 1.5rem;
+
+  color: #0000FF;
+  background: #F8E0E0;
+}
